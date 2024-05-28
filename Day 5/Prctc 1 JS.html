@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prtc 1</title>
+</head>
+<body>
+<script language ="javascript" type="text/javascript">
+    document.write("Hello world");
+document.write("<<br/>>");
+document.write("Hello world");
+
+//variable : 
+
+var a= 10;
+var b = "Hello world";
+document.write(a);
+document.write(b);
+
+//alert function :
+alert("You can't see this!!!!!!");
+
+//console
+console.log("Hello this is log");
+
+var x,y,z;
+x="String";
+y= 50 ;
+z = 100.00;
+document.write ("<br>",x,"<br>", y ,"<br>" , z);
+
+// Rules to write variables :
+/* Allowed : 
+_abcabc_xyz
+a1b2
+$abc
+
+Not allowed :
+
+1abc
+abc xyz
+*ab#s
+*/
+
+var w ;
+var r = null ;
+document.write("<br>" , w , "<br>" , r);
+// undefined mane kono value assign kori nai
+// Variable declare korchi but value ta Null mane apatoto khali rakhchi
+
+function example () {           //fuction declared
+    console.log(ex);
+    var x= 10 ;
+    console.log(ex);
+}
+//example();     ---> undefined error
+
+// var jokhon functioner vitor thakbe --> local scope
+// functioner baire thakle global scope
+
+
+function exampleLet () {           // let variable type
+    console.log(exl);
+ let  exl= 10 ;
+    console.log(exl);
+}
+//exampleLet();   --> initialization error
+
+// const type variable cann't be changed after declared once,
+
+const con = 30;
+// con = 20;      --->error
+console.log(con);  
+
+ function varlet1 (){
+var var1 = "abc";
+console.log(var1)
+
+ }
+ function varlet2 (){
+var var1 = "5000";
+console.log(var1)
+
+ }
+
+varlet1();
+varlet2();
+// -------> No error : Same name er variable locally use kora jay
+
+//typeof function:
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof z);
+console.log(typeof w);
+
+
+</script>    
+</body>
+</html>
